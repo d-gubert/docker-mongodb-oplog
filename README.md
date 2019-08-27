@@ -10,6 +10,6 @@ ReplicaSet name: `rs0`.
 
 ```
 MONGO_URL=mongodb://<hostname>/my_database?replicaSet=rs0
-MONGO_URL_OPLOG=mongodb://<hostname>/local?replicaSet=rs0
+MONGO_OPLOG_URL=mongodb://<hostname>/local?replicaSet=rs0
 ```
 
